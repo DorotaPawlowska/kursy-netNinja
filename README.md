@@ -1,2 +1,3 @@
-# Opis
-æwiczenie repo nr1
+# Cwiczenie repo nr1
+
+dodatkowe przerobione kursy
