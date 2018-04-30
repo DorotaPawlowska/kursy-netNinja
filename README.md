@@ -1,2 +1,2 @@
-# Opis
-æwiczenie repo nr1
+pierwotne wprawki
+puste pliki
