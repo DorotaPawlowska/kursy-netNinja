@@ -1,3 +1,3 @@
-# Cwiczenie repo nr1
+# kurs jQuery
 
-dodatkowe przerobione kursy
+26 odcinków
