@@ -1,4 +1,22 @@
 
+//ep#9 - adding content
+var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'> the big fight live: ham vs cheese!</div>";
+
+// $("#tweets div").append(tweet);
+// $("#tweets div").prepend(tweet);
+// $("#tweets div p").before(tweet);
+// $("#tweets div p").after(tweet);
+// $("#tweets div").html(tweet);
+$("#tweets div p").text(tweet);
+
+
+// .append();
+// .prepend();
+// .before();
+// .after();
+// .html();
+// .text();
+
 //ep#8 - chaining
 /*
 $("#contact-methods").css({border: "2px solid red"})
