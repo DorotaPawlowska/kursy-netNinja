@@ -1,5 +1,34 @@
 
+//ep#10 - wraping
+/*
+var wrapper = "<div class='wrapper'>";
+var button = $(".button");
+var wrapped = true;
+
+button[0].onclick = function () {
+    if(wrapped){
+        $("section").unwrap();
+        wrapped = false;
+        button.text("wrap");
+    }else {
+        $("section").wrapAll(wrapper);
+        wrapped = true;
+        button.text("unwrap");
+    }
+};
+
+// przykłady
+$("section").wrap("<div>");
+$("section").unwrap();
+$("section").wrapAll("<div>");
+
+// wrap();
+// unwrap();
+// wrapAll();
+*/
+
 //ep#9 - adding content
+/*
 var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'> the big fight live: ham vs cheese!</div>";
 
 // $("#tweets div").append(tweet);
@@ -9,13 +38,13 @@ var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'> the b
 // $("#tweets div").html(tweet);
 $("#tweets div p").text(tweet);
 
-
 // .append();
 // .prepend();
 // .before();
 // .after();
 // .html();
 // .text();
+*/
 
 //ep#8 - chaining
 /*
