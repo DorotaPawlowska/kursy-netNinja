@@ -1,5 +1,24 @@
 
-// test zmiany nazwy
+// ep#7 - przechodzenie DOM
+/*
+//next
+// $("#contact-methods").next().css({border: "3px solid red"});
+
+//prev
+// $("#social-nav").prev().css({border: "3px solid blue"});
+
+//parent + s
+// $(".banner-title").parent().css({border: "3px solid pink"});
+
+//children
+// $("#social-nav").children().css({border: "3px solid green"});
+
+//find szybciej działa od zapisu w pierwszym $()
+// $("#contact").find(".facebook").css({border: "3px solid purple"});
+
+//closest
+$("#social-nav").closest(".wrapper").css({border: "3px solid orange"});
+*/
 
 //ep#6 - filtry
 /*
