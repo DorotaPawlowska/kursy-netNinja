@@ -1,9 +1,7 @@
 
 
-
-/*
 //ep#6 - filtry
-
+/*
 // $("header nav li:first").css({border: "2px solid red"});
 // $("header nav li:last").css({border: "2px solid red"});
 //
@@ -24,13 +22,10 @@
 // $("div[class]").css({border: "2px solid pink"});
 
 // $("img[alt=quote]").css({border: "2px solid purple"});
-
 */
 
-
+//ep#5 - selektory
 /*
-//ep#5
-
 // znacznik
 $("h3").css({border: "3px solid blue"});
 
