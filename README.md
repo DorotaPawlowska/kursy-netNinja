@@ -1,4 +1,4 @@
 # kurs 
-## jQuery Tutorials for Beginners
+## CSS Animation Tutorial 
 
-26 odcinków
+(13 epizodów)
