@@ -1,4 +1,4 @@
-# Cwiczenie repo nr1
+# Repo nr1
 
 dodatkowe przerobione kursy:
 
