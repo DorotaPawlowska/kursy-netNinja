@@ -1,4 +1,19 @@
 
+//ep#18 - The Event Object in jQuery
+/*
+$(document).ready(function () {
+    // selektor uniwersalny
+    $("*").on("click", function (e) {
+
+        console.log(e.target);
+        console.log("type eventu: " + e.type);
+        console.log("x: "+ e.pageX);
+        console.log("y: "+ e.pageY);
+        e.stopPropagation();
+    });
+});
+*/
+
 //ep#17 - Document Ready vs Window Load
 /*
 // $(document).on("ready", function () {
