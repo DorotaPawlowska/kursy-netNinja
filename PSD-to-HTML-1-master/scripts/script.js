@@ -1,4 +1,23 @@
 
+//ep#13 - css with jquery
+/*
+// console.log($("#social-nav").css("position"));
+// console.log($("#social-nav").css("top"));
+// $("#social-nav").css("top", "-200px").css("left", "100px").css("border", "2px solid red");
+
+// var myObject = {
+//     height : "40",
+//     speed : "100"
+// };
+
+$("#social-nav").css({
+    top : "-400px",
+    left : "150px",
+    opacity : "0.5",
+    borderTop : "2px solid red"
+});
+*/
+
 //ep#12 - changing attributes
 /*
 // $("#contact img").removeAttr("alt");
