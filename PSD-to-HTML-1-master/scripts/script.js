@@ -1,4 +1,6 @@
 
+//end of the tutorial ep#26
+
 //ep#25 - Using Plugins
 /*
 $(function() {
