@@ -1,4 +1,17 @@
 
+//ep#17 - Document Ready vs Window Load
+/*
+// $(document).on("ready", function () {
+// $(document).ready(function () {
+$(function () {
+
+});
+
+// $(window).on("load", function () {
+$(window).load(function () {
+
+});
+*/
 
 //ep#16 - Event Helpers
 /*
