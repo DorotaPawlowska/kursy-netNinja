@@ -1,4 +1,4 @@
 # kurs 
-## CSS Animation Tutorial 
+## bootstrap 3
 
 (13 epizodów)
