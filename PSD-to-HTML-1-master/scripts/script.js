@@ -1,4 +1,20 @@
 
+//ep#19 - Animations in jQuery
+/*
+$(document).ready(function () {
+
+    function ukonczona() {
+        alert("animacja ukończona");
+    }
+
+    $("section > h2").on("click", function () {
+        // $(this).css({width: "500px", height: "100px"});
+        $(this).animate({width: "500px", height: "100px"}, 1000, "linear", ukonczona);
+    });
+
+});
+*/
+
 //ep#18 - The Event Object in jQuery
 /*
 $(document).ready(function () {
