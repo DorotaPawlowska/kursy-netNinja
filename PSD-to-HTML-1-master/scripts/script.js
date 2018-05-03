@@ -1,10 +1,20 @@
 
-//ep#14 -
+//ep#14 - Adding & Removing Classes
+/*
+var button = $("#lead-banner a");
 
+button[0].onclick = function () {
+    $("#points-of-sale").toggleClass("open");
+    return false;
+};
 
+// $("header .wrapper").removeClass("wrapper");
+// $("header > div").addClass("wrapper");
 
-
-
+// .removeClass();
+// .addClass();
+// .toggleClass();
+*/
 
 //ep#13 - css with jquery
 /*
