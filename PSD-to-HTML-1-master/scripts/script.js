@@ -1,5 +1,16 @@
 
-//ep#11
+//ep#12 - changing attributes
+/*
+// $("#contact img").removeAttr("alt");
+// $("#contact img").attr("alt", "location");
+
+console.log($("#contact img").attr("alt"));
+
+// .removeAttr();
+// .attr();
+*/
+
+//ep#11 - removing content
 /*
 // $(".button").empty();
 $(".button").remove();
