@@ -1,4 +1,15 @@
 
+//ep#11
+/*
+// $(".button").empty();
+$(".button").remove();
+// $("#points-of-sale").empty();
+$("#contact img").remove();
+
+// .empty();
+// .remove();
+*/
+
 //ep#10 - wraping
 /*
 var wrapper = "<div class='wrapper'>";
