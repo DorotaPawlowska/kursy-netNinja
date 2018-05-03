@@ -1,4 +1,11 @@
 
+//ep#14 -
+
+
+
+
+
+
 //ep#13 - css with jquery
 /*
 // console.log($("#social-nav").css("position"));
