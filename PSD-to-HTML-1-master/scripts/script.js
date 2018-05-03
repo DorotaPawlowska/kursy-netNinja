@@ -1,4 +1,21 @@
 
+//ep#15 - Binding & Unbinding Events
+
+var myLis = $("#points-of-sale li");
+
+myLis.on('click', function (e) {
+    e.preventDefault();
+    $(this).css({background: "pink"});
+
+    myLis.off('click');
+});
+
+
+
+// .on();
+// .off();
+
+
 //ep#14 - Adding & Removing Classes
 /*
 var button = $("#lead-banner a");
