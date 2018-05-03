@@ -1,6 +1,18 @@
 
-//ep#23 - Fading Animation Example
+//ep#24 - Sliding Animation Example
 
+$(document).ready(function () {
+    var items = $("#points-of-sale li");
+
+    items.on("click", function () {
+        $(this).find("p").slideToggle(500);
+    });
+});
+
+
+
+//ep#23 - Fading Animation Example
+/*
 $(document).ready(function () {
 
     var allQuotes = $("blockquote");
@@ -19,11 +31,9 @@ $(document).ready(function () {
             $(allQuotes[currentQuote]).fadeIn(200);
         });
     }
-
     var quoteTimer = setInterval(changeQuote, 3000);
-
 });
-
+*/
 
 //ep#22 - Sliding Elements
 /*
