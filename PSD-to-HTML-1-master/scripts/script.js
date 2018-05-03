@@ -1,4 +1,27 @@
 
+//ep#22 - Sliding Elements
+/*
+$(document).ready(function () {
+
+    $(".slide-up").on("click", function () {
+       $("#lead-banner").slideToggle(1000, function () {
+           alert("ukoNczona");
+       });
+   });
+
+    // $(".slide-up").on("click", function () {
+   //     $("#lead-banner").slideUp(100);
+   //
+   // });
+   //
+   // $(".slide-down").on("click", function () {
+   //     $("#lead-banner").slideDown(400, function () {
+   //         alert("ukoNczone");
+   //     });
+   // });
+});
+*/
+
 //ep#21 - Hide and Show Elements
 /*
 $(document).ready(function () {

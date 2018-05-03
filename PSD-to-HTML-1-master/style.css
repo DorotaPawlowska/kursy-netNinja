@@ -354,3 +354,18 @@ section#points-of-sale ul{
 .open{
     height: auto !important;
 }
+
+.slide-up,
+.slide-down,
+.button {
+    clear: right;
+    padding: 10px;
+    background: #cccccc;
+    border-radius: 4px;
+    border: 1px solid #aaaaaa;
+    color: #333333;
+    cursor: pointer;
+    width: 140px;
+    text-align: center;
+    margin: 20px auto;
+}
