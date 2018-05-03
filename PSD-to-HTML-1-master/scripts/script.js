@@ -1,6 +1,19 @@
 
-//ep#15 - Binding & Unbinding Events
 
+//ep#16 - Event Helpers
+/*
+// $("#lead-banner").click(function () {
+//     alert('you clicked me');
+// });
+
+$("#lead-banner").dblclick(function () {
+    alert('you dbl clicked me');
+    $("#lead-banner").off("dblclick");
+});
+*/
+
+//ep#15 - Binding & Unbinding Events
+/*
 var myLis = $("#points-of-sale li");
 
 myLis.on('click', function (e) {
@@ -10,11 +23,9 @@ myLis.on('click', function (e) {
     myLis.off('click');
 });
 
-
-
 // .on();
 // .off();
-
+*/
 
 //ep#14 - Adding & Removing Classes
 /*
