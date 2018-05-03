@@ -1,6 +1,13 @@
 
-//ep#24 - Sliding Animation Example
+//ep#25 - Using Plugins
+/*
+$(function() {
+    $(".rslides").responsiveSlides();
+});
+*/
 
+//ep#24 - Sliding Animation Example
+/*
 $(document).ready(function () {
     var items = $("#points-of-sale li");
 
@@ -8,8 +15,7 @@ $(document).ready(function () {
         $(this).find("p").slideToggle(500);
     });
 });
-
-
+*/
 
 //ep#23 - Fading Animation Example
 /*
