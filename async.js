@@ -1,8 +1,50 @@
 
 window.onload = function () {
 
-    //ep#4 - Promises
+    //ep#5 - Generators
+    /*
+    genWrap(function* () {
 
+        var tweets = yield $.get("tweets.json");
+        console.log(tweets);
+
+        var friends = yield $.get("friends.json");
+        console.log(friends);
+
+        var videos = yield $.get("tweets.json");
+        console.log(videos);
+    });
+
+    function genWrap(generator) {
+
+        var gen = generator();
+
+        function handle(yielded) {
+            if(!yielded.done){
+                yielded.value.then(function (data) {
+                    return handle(gen.next(data));
+                })
+            }
+        }
+
+        return handle(gen.next());
+    }
+    */
+
+    /*
+    function* gen() {
+        var x = yield 10;
+        console.log(x);
+    }
+
+    var myGen = gen();
+
+    console.log(myGen.next());
+    console.log(myGen.next(10));
+    */
+
+
+    //ep#4 - Promises
     /*
     $.get("tweets.json").then(function (tweets) {
         console.log(tweets);
