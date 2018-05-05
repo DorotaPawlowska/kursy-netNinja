@@ -1,6 +1,33 @@
 
 window.onload = function () {
 
+    //ep
+
+
+
+
+
+
+
+
+    //ep#4 - Default Parameters
+    /*
+    function logNinja(name="Ryu", belt="red", age=25) {
+        console.log("my name is "+ name +
+            " and my belt colour is " + belt +
+            " and my age is "+ age);
+    }
+
+    logNinja("Shaun", "black", 23)
+    */
+    
+    /*
+    function log(num=10) {
+        console.log(num);
+    }
+    log(20);
+    */
+
 
     //ep#3 - The Let Keyword
     /*
