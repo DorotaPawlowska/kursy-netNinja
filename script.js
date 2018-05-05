@@ -25,6 +25,46 @@ window.onload = function () {
     console.log(ninja.belt);
     */
 
+    //ep#7 - New String Methods
+    /*
+    var test = "my name is Ryu";
+
+    console.log(test.includes("name"));
+    console.log(test.includes("names"));
+    */
+
+    /*
+    var youSay = "goodbye";
+
+    if(youSay.startsWith("goodbye")){
+        var iSay = "hello";
+    }
+    console.log(`you say ${youSay}, I say ${iSay}`);
+    */
+
+    /*
+    var str = "gryyyyy || ";
+    var str2 = "goodbye";
+
+
+    console.log(str2.startsWith("good"));
+    console.log(str2.startsWith("bye"));
+    console.log(str2.startsWith("bye", 4));
+
+    console.log(str2.endsWith("bye"));
+    console.log(str2.endsWith("good"));
+    console.log(str2.endsWith("good", str2.length - 3));
+
+    console.log(str.repeat(15));
+    */
+
+    //new string methods
+    // repeat();
+    // startsWith();
+    // endsWith();
+    // includes();
+
+
 
     //ep#6 - Template Strings
     /*
