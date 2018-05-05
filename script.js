@@ -1,6 +1,31 @@
 
 window.onload = function () {
 
+    //ep#8 - Object Literal Enhancements
+    /*
+    var name = "Crystal";
+    var belt = "black";
+    var ninja = {
+        //new ES6
+        name, belt,
+        chop(x){
+            console.log(`you chopped the enemy ${x} times`);
+        }
+
+        //ES5
+        // chop: function (x) {
+        //     console.log(`you chopped the enemy ${x} times`);
+        // }
+        // name: name,
+        // belt: belt
+    };
+
+    console.log(ninja.chop(5));
+    console.log(ninja.name);
+    console.log(ninja.belt);
+    */
+
+
     //ep#6 - Template Strings
     /*
     function logNinja(name, age) {
