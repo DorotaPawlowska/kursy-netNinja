@@ -1,15 +1,36 @@
 
 window.onload = function () {
 
-    //ep#5 - The Spread Operator
+    //ep#6 - Template Strings
+    /*
+    function logNinja(name, age) {
+        // console.log("my name is "+name+" and my age is "+age);
+        // console.log(`my name is ${name} and my age is ${age}`);
+        console.log(`my name is ${name} 
+        and my age is ${10+9}`);
+    }
 
+    logNinja("Ryu", 24);
+    */
+    
+    /*
+    var temp = `hello, my name 
+    
+    is ...`
+
+    console.log(temp);
+    */
+
+
+    //ep#5 - The Spread Operator
+    /*
     var nums = [3,5,7];
     function addNums(a,b,c) {
         console.log(a+b+c);
     }
 
     addNums(...nums);
-    
+    */
     
     /*
     var nums1 = [1, 2, 3];
