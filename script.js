@@ -1,8 +1,72 @@
 
 window.onload = function () {
 
-    //ep#10 - Sets
+    //ep#11 - Generators
+    /*
+    genWrapper(function* generator() {
+        var tweets = yield $.getJSON("tweets.json");
+        console.log(tweets);
 
+        var friends = yield $.getJSON("friends.json");
+        console.log(friends);
+
+        var videos = yield $.getJSON("videos.json");
+        console.log(videos);
+
+    });
+
+    function genWrapper(generator) {
+
+        // set up generator/iterator
+        var myGen = generator();
+
+        //create function to handle the yielded value
+        function handle(yielded) {
+            if(!yielded.done){
+                yielded.value.then(function (data) {
+                    return handle(myGen.next(data));
+                });
+            }
+
+        }//end handle
+
+        //return handle func, passing in myGen.next
+        return handle(myGen.next());
+    }//end genWrapper
+    */
+
+    /*
+    function* gen() {
+        var x = yield "pear"; // JS read code from right to left
+        var y = yield "banana";
+        var z = yield "apple";
+
+        // yield "pear"; // JS read code from right to left
+        // yield "banana";
+        // yield "apple";
+
+        // yield console.log("pear"); // JS read code from right to left
+        // yield console.log("banana");
+        // yield console.log("apple");
+
+        // console.log("all done");
+        // return "all done";
+        return x+y+z;
+    }
+
+    var myGen = gen();
+    console.log(myGen.next());
+    console.log(myGen.next(10));
+    console.log(myGen.next(5));
+    console.log(myGen.next(3));
+    // myGen.next();
+    // myGen.next();
+    // myGen.next();
+    */
+
+
+    //ep#10 - Sets
+    /*
     var ninjas = ["shaun", "ryu", "crystal", "yoshi", "ryu", "yoshi"];
 
     var refinedNinjas = new Set(ninjas);
@@ -12,7 +76,7 @@ window.onload = function () {
     ninjas = [...refinedNinjas];
 
     console.log(ninjas);
-
+    */
 
     /*
     var names = new Set();
@@ -241,4 +305,3 @@ window.onload = function () {
     */
 
 };
-
