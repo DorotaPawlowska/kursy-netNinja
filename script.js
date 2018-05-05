@@ -1,6 +1,45 @@
 
 window.onload = function () {
 
+    //ep#9 - Arrow Functions
+    /*
+    var ninja = {
+        name: "Ryu",
+        chop(x){ // new ES6
+            // var _this = this; // important !!
+            // window.setInterval(function () {
+            window.setInterval(() => {
+                if(x > 0){
+                    console.log(/*_this.name*/ /* this.name + " chopped the enemy");
+                    x--;
+                }
+            }, 1000);
+        }
+    };
+
+    ninja.chop(5);
+    */
+
+    /*
+    var ninjaGreeting = name => console.log(`${name} says 
+    hiiiya`);
+    // var ninjaGreeting = (name) => console.log(`${name} says
+    // hiiiya`);
+
+    // var ninjaGreeting = () => console.log("hiiiiiya");
+
+    // var ninjaGreeting = () => {
+    //     console.log("hiiiiiya");
+    // };
+
+    // var ninjaGreeting = function () {
+    //     console.log("hiiiiiya");
+    // };
+
+    ninjaGreeting("Mark");
+    */
+
+
     //ep#8 - Object Literal Enhancements
     /*
     var name = "Crystal";
@@ -24,6 +63,7 @@ window.onload = function () {
     console.log(ninja.name);
     console.log(ninja.belt);
     */
+
 
     //ep#7 - New String Methods
     /*
@@ -58,12 +98,13 @@ window.onload = function () {
     console.log(str.repeat(15));
     */
 
+    /*
     //new string methods
     // repeat();
     // startsWith();
     // endsWith();
     // includes();
-
+    */
 
 
     //ep#6 - Template Strings
