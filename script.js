@@ -1,6 +1,35 @@
 
 window.onload = function () {
 
+    //ep#10 - Sets
+
+    var ninjas = ["shaun", "ryu", "crystal", "yoshi", "ryu", "yoshi"];
+
+    var refinedNinjas = new Set(ninjas);
+
+    console.log(refinedNinjas);
+
+    ninjas = [...refinedNinjas];
+
+    console.log(ninjas);
+
+
+    /*
+    var names = new Set();
+
+    names.add("Shaun").add("Ryu").add("Crystal").add("Ryu");
+    console.log(names.delete("Crystal"));
+    console.log(names.has("Ryu"));
+    console.log(names.has("Crystal"));
+
+    // names.clear();
+    // names.delete("Crystal").delete("Shaun"); // delete nie łaczymy
+    console.log(names.size);
+
+    console.log(names);
+    */
+
+
     //ep#9 - Arrow Functions
     /*
     var ninja = {
