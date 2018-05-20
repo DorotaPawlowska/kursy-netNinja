@@ -3,10 +3,30 @@
 
 //ep#7
 
-//ep#6
+//ep#6 Object Oriented JavaScript Tutorial - Class Methods
+
+class User{
+    constructor(email, name){
+        this.name = name;
+        this.email = email;
+    }
+    login(){
+        console.log(this.email, 'just logged in');
+    }
+    logout(){
+        console.log(this.email, 'just logged out');
+    }
+}
+
+var userOne = new User('ryu@mail.com', 'Ryu');
+var userTwo = new User('yoshi@mail.com', 'Yoshi');
+
+userOne.login();
+userTwo.logout();
+
 
 //ep#5 Object Oriented JavaScript Tutorial - Class Constructors
-
+/*
 class User{
     constructor(email, name){
         this.name = name;
@@ -19,7 +39,7 @@ var userTwo = new User('yoshi@mail.com', 'Yoshi');
 
 console.log(userOne);
 console.log(userTwo);
-
+*/
 
 //ep#4 Object Oriented JavaScript Tutorial - Classes
 /*
@@ -67,7 +87,7 @@ console.log(userOne[prop]);
 // };
 */
 
-// ep# 2 Object Oriented JavaScript Tutorial - Object Literals
+//ep#2 Object Oriented JavaScript Tutorial - Object Literals
 /*
 var userOne = {
     email: 'ryu@ninjas.com',
