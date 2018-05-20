@@ -1,2 +1,2 @@
 # kurs netninja
-##Object Oriented JavaScript
+##Object Oriented JavaScript *( ... epizodów)*
