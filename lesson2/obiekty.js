@@ -5,10 +5,24 @@
 
 //ep#6
 
-//ep#5
+//ep#5 Object Oriented JavaScript Tutorial - Class Constructors
+
+class User{
+    constructor(email, name){
+        this.name = name;
+        this.email = email;
+    }
+}
+
+var userOne = new User('ryu@mail.com', 'Ryu');
+var userTwo = new User('yoshi@mail.com', 'Yoshi');
+
+console.log(userOne);
+console.log(userTwo);
+
 
 //ep#4 Object Oriented JavaScript Tutorial - Classes
-
+/*
 class User{
 
 }
@@ -23,9 +37,7 @@ var userOne = {
         console.log(this.email, 'has logged out')
     }
 };
-
-
-
+*/
 
 //ep#3 Object Oriented JavaScript Tutorial - Updating Properties
 /*
