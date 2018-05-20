@@ -1,10 +1,37 @@
 
 //ep#8
 
-//ep#7
+//ep#7 Object Oriented JavaScript Tutorial - Method Chaining
+
+class User{
+    constructor(email, name){
+        this.name = name;
+        this.email = email;
+        this.score = 0;
+    }
+    login(){
+        console.log(this.email, 'just logged in');
+        return this;
+    }
+    logout(){
+        console.log(this.email, 'just logged out');
+        return this;
+    }
+    updateScore(){
+        this.score++;
+        console.log(this.email, 'score is now', this.score);
+        return this;
+    }
+}
+
+var userOne = new User('ryu@mail.com', 'Ryu');
+var userTwo = new User('yoshi@mail.com', 'Yoshi');
+
+userOne.login().updateScore().updateScore().logout();
+
 
 //ep#6 Object Oriented JavaScript Tutorial - Class Methods
-
+/*
 class User{
     constructor(email, name){
         this.name = name;
@@ -23,7 +50,7 @@ var userTwo = new User('yoshi@mail.com', 'Yoshi');
 
 userOne.login();
 userTwo.logout();
-
+*/
 
 //ep#5 Object Oriented JavaScript Tutorial - Class Constructors
 /*
