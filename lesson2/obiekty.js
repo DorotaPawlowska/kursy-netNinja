@@ -1,9 +1,26 @@
 
-//ep#9
+//ep#9 Object Oriented JavaScript Tutorial - Constructors (under the hood)
+
+function User(email, name) {
+    this.email = email;
+    this.name = name;
+    this.online = false;
+
+    this.login = function () {
+        console.log(this.name, 'has logged in');
+    }
+}
 
 
-//ep#8
+var userOne = new User('ryu@mail.com', 'Ryu');
+var userTwo = new User('yoshi@mail.com', 'Yoshi');
 
+console.log(userOne);
+userTwo.login();
+
+
+//ep#8 Object Oriented JavaScript Tutorial - Class Inheritance
+/*
 class User{
     constructor(email, name){
         this.name = name;
@@ -37,9 +54,6 @@ var userOne = new User('ryu@mail.com', 'Ryu');
 var userTwo = new User('yoshi@mail.com', 'Yoshi');
 
 var admin = new Admin('shoun@kl.com', 'shoun');
-
-
-
 var users = [ userOne, userTwo, admin];
 
 userOne.login().updateScore().updateScore().logout();
@@ -47,6 +61,7 @@ userOne.login().updateScore().updateScore().logout();
 userTwo.deleteUser(userOne);
 
 console.log(users);
+*/
 
 //ep#7 Object Oriented JavaScript Tutorial - Method Chaining
 /*
