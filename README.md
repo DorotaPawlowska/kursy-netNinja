@@ -13,7 +13,7 @@
 9. kurs netninja - REST API Tutorials (Node, Express & Mongo) (17 epizodów) *TO DO*
 10. kurs netninja - Styling a HTML5 Form (6 epizodów) *TO DO*
 11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) *TO DO* 
-12. **kurs netninja - Object Oriented JavaScript Tutorial (... epizodów) ... in progress**  
+12. kurs netninja - Object Oriented JavaScript Tutorial ( 11 epizodów) **_DONE_**  
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
 1. CSS Positioning Tutorials (12 ep) [tutaj](https://github.com/DorotaPawlowska/kurs-netNinja-PosCSS)
