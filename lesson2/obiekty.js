@@ -1,6 +1,56 @@
 
-//ep#9 Object Oriented JavaScript Tutorial - Constructors (under the hood)
+//ep#11 Object Oriented JavaScript Tutorial - Prototype Inheritance
 
+function User(email, name) {
+    this.email = email;
+    this.name = name;
+}
+
+User.prototype.login = function () {
+    this.online = true;
+    console.log(this.name, 'has logged in');
+};
+
+User.prototype.logout = function () {
+    this.online = false;
+    console.log(this.name, 'has logged out');
+};
+
+var userOne = new User('ryu@mail.com', 'Ryu');
+var userTwo = new User('yoshi@mail.com', 'Yoshi');
+
+console.log(userOne);
+userTwo.login();
+userTwo.logout();
+
+
+//ep#10 Object Oriented JavaScript Tutorial - Prototype
+/*
+function User(email, name) {
+    this.email = email;
+    this.name = name;
+}
+
+User.prototype.login = function () {
+    this.online = true;
+    console.log(this.name, 'has logged in');
+};
+
+User.prototype.logout = function () {
+    this.online = false;
+    console.log(this.name, 'has logged out');
+};
+
+var userOne = new User('ryu@mail.com', 'Ryu');
+var userTwo = new User('yoshi@mail.com', 'Yoshi');
+
+console.log(userOne);
+userTwo.login();
+userTwo.logout();
+*/
+
+//ep#9 Object Oriented JavaScript Tutorial - Constructors (under the hood)
+/*
 function User(email, name) {
     this.email = email;
     this.name = name;
@@ -17,7 +67,7 @@ var userTwo = new User('yoshi@mail.com', 'Yoshi');
 
 console.log(userOne);
 userTwo.login();
-
+*/
 
 //ep#8 Object Oriented JavaScript Tutorial - Class Inheritance
 /*
