@@ -4,6 +4,7 @@
 function User(email, name) {
     this.email = email;
     this.name = name;
+    this.online = false;
 }
 
 User.prototype.login = function () {
@@ -16,12 +17,26 @@ User.prototype.logout = function () {
     console.log(this.name, 'has logged out');
 };
 
+function Admin(...args) {
+    User.apply(this, args);
+    this.role = 'super admin';
+}
+
+Admin.prototype = Object.create(User.prototype);
+
+Admin.prototype.deleteUser = function (u) {
+    users = users.filter(user => {
+        return user.email != u.email;
+    });
+};
+
 var userOne = new User('ryu@mail.com', 'Ryu');
 var userTwo = new User('yoshi@mail.com', 'Yoshi');
+var admin = new Admin('shoun@ninjas.com', 'shoun');
 
-console.log(userOne);
-userTwo.login();
-userTwo.logout();
+var users = [userOne, userTwo, admin];
+
+console.log(admin);
 
 
 //ep#10 Object Oriented JavaScript Tutorial - Prototype
