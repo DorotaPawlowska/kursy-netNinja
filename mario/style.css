@@ -12,5 +12,23 @@ body{
 img{
     /*transform: translate(-200px, 200px);*/
     /*transform: scale(2,0.5);*/
-    transform: rotateZ(-40deg) translateY(200px) scale(2);
+    /*transform: rotateZ(-40deg) translateY(200px) scale(2);*/
+}
+
+.circle{
+    width: 100px;
+    padding: 50px 0;
+    line-height: 0;
+    margin: 60px auto;
+    background: deeppink;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 1s, transform 1s 1s ease;
+    /*transition: 1s;*/
+}
+
+.circle:hover{
+    background: purple;
+    transform: rotate(360deg);
 }
