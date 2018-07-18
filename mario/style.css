@@ -1,34 +1,106 @@
-body{
-    background: lightskyblue;
-    text-align: center;
-}
-
-.wrapper{
+html, body {
+    height: 100%;
     width: 100%;
-    padding: 20px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.grass, .sky, .road {
+    position: relative;
+}
+
+.sky {
+    height: 40%;
+    background: skyblue;
+}
+
+.grass {
+    height: 30%;
+    background: seagreen;
+}
+
+.road {
+    height: 30%;
+    background: dimgrey;
     box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
 }
 
-img{
-    /*transform: translate(-200px, 200px);*/
-    /*transform: scale(2,0.5);*/
-    /*transform: rotateZ(-40deg) translateY(200px) scale(2);*/
+.lines {
+    box-sizing: border-box;
+    border: 5px dashed #ffffff;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 45%;
 }
 
-.circle{
-    width: 100px;
-    padding: 50px 0;
-    line-height: 0;
-    margin: 60px auto;
-    background: deeppink;
-    color: white;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background 1s, transform 1s 1s ease;
-    /*transition: 1s;*/
+/* animacje*/
+
+.mario {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    animation-name: drive;
+    animation-duration: 3s;
 }
 
-.circle:hover{
-    background: purple;
-    transform: rotate(360deg);
+@keyframes drive {
+    from {
+        transform: translateX(0);
+    } to {
+        transform: translateX(500px);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* do 4 odcinka */
+
+/*body{*/
+    /*background: lightskyblue;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.wrapper{*/
+    /*width: 100%;*/
+    /*padding: 20px;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*img{*/
+    /*!*transform: translate(-200px, 200px);*!*/
+    /*!*transform: scale(2,0.5);*!*/
+    /*!*transform: rotateZ(-40deg) translateY(200px) scale(2);*!*/
+/*}*/
+
+/*.circle{*/
+    /*width: 100px;*/
+    /*padding: 50px 0;*/
+    /*line-height: 0;*/
+    /*margin: 60px auto;*/
+    /*background: deeppink;*/
+    /*color: white;*/
+    /*border-radius: 50px;*/
+    /*cursor: pointer;*/
+    /*transition: background 1s, transform 1s 1s ease;*/
+    /*!*transition: 1s;*!*/
+/*}*/
+
+/*.circle:hover{*/
+    /*background: purple;*/
+    /*transform: rotate(360deg);*/
+/*}*/
