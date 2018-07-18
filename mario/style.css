@@ -43,12 +43,13 @@ html, body {
     position: absolute;
     top: -40px;
     left: 0;
-    animation-name: drive;
-    animation-duration: 5s;
-    animation-fill-mode: both;
-    /*animation-delay: 2s;*/
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0,.77,1,.28);
+    animation: drive 5s both infinite cubic-bezier(0,.77,1,.28),
+               jump 0.3s 1.2s ease;
+    /*animation-duration: 5s;*/
+    /*animation-fill-mode: both;*/
+    /*!*animation-delay: 2s;*!*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-timing-function: cubic-bezier(0,.77,1,.28);*/
 }
 
 .luigi {
@@ -65,7 +66,6 @@ html, body {
 
 .cloud {
     position: absolute;
-
 }
 
 .cloud:nth-child(1){
@@ -107,7 +107,8 @@ html, body {
 @keyframes drive {
     from {
         transform: translateX(-200px);
-    } to {
+    }
+    to {
         transform: translateX(2300px);
     }
 }
@@ -115,11 +116,23 @@ html, body {
 @keyframes wind {
     from{
         left: -400px;
-    } to {
+    }
+    to {
         left: 100%;
     }
 }
 
+@keyframes jump {
+    0% {
+        top: -40px;
+    }
+    50% {
+        top: -100px;
+    }
+    100% {
+        top: -40px;
+    }
+}
 
 
 
