@@ -8,6 +8,6 @@ var fs = require('fs');
 // });
 
 
-fs.unlink('./stuff2/writeMe.txt', function () {
-    fs.rmdir('stuff2');
-});
+// fs.unlink('./stuff/writeMe.txt', function () {
+//     fs.rmdir('stuff');
+// });
