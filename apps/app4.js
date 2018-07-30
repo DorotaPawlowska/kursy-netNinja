@@ -8,4 +8,4 @@ var server = http.createServer(function (request, response) {
 
 server.listen(3000, '127.0.0.1');
 
-console.log('yo dawgs, now listening to port 3000')
+console.log('yo dawgs, now listening to port 3000');
