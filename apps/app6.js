@@ -13,8 +13,6 @@ var server = http.createServer(function (request, response) {
 
     response.end(JSON.stringify(myObj));
 
-
-
     // var myReadStream = fs.createReadStream(__dirname + '/index.html', 'utf8');
     // myReadStream.pipe(response);
 });
