@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: skyblue;
+            font-family: Verdana, sans-serif;
+            color: white;
+            padding: 30px;
+        }
+        h1{
+            font-size: 58px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        P{
+            font-size: 36px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<h1>welcome to the profile of <%= person %></h1>
+<p>
+    <strong> Age: </strong><%= data.age %>
+</p>
+<p>
+    <strong> Job: </strong><%= data.job %>
+</p>
+</body>
+</html>
