@@ -15,6 +15,11 @@
 11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) **_...IN PROGRESS_**
 12. kurs netninja - Object Oriented JavaScript Tutorial ( 11 epizodów) **_DONE_**  
 13. kurs netninja - Complete React & Redux Tutorial ( ... epizodów) *TO DO*  
+14. kurs netninja - CSS Grid Tutorial ( 10 epizodów) *TO DO*  
+15. kurs netninja - Webpack Tutorials for Beginners ( 6 epizodów) *TO DO*  
+16. kurs netninja - SASS Tutorial ( 12 epizodów) *TO DO*  
+17. kurs netninja - CSS Variables Tutorial ( 4 epizodów) *TO DO*  
+...
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
 1. CSS Positioning Tutorials (12 ep) [tutaj](https://github.com/DorotaPawlowska/kurs-netNinja-PosCSS)
