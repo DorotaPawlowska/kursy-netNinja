@@ -16,20 +16,42 @@
             letter-spacing: 2px;
             text-align: center;
         }
-        P{
+        h2{
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        p{
             font-size: 36px;
             text-align: center;
-
+        }
+        li{
+            font-size: 46px;
+            text-align: center;
+            list-style-type: hiragana;
+        }
+        div{
+            margin: 0 auto;
+            width: 200px;
         }
     </style>
 </head>
 <body>
-<h1>welcome to the profile of <%= person %></h1>
-<p>
-    <strong> Age: </strong><%= data.age %>
-</p>
-<p>
-    <strong> Job: </strong><%= data.job %>
-</p>
+    <h1>welcome to the profile of <%= person %></h1>
+    <p>
+        <strong> Age: </strong><%= data.age %>
+    </p>
+    <p>
+        <strong> Job: </strong><%= data.job %>
+    </p>
+    <h2>hobbies</h2>
+        <div>
+            <ul>
+                <% data.hobbies.forEach(function (t) { %>
+                    <li><%= t %></li>
+                <% });%>
+            </ul>
+        </div>
 </body>
 </html>
