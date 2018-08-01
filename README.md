@@ -12,10 +12,10 @@
 8. kurs netninja - React Tutorials (16 epizodów) ... STOPPED
 9. kurs netninja - REST API Tutorials (Node, Express & Mongo) (17 epizodów) *TO DO*
 10. kurs netninja - Styling a HTML5 Form (6 epizodów) **_DONE_**
-11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) **_...IN PROGRESS_**
+11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) **_DONE_**
 12. kurs netninja - Object Oriented JavaScript Tutorial ( 11 epizodów) **_DONE_**  
 13. kurs netninja - Complete React & Redux Tutorial ( ... epizodów) *TO DO*  
-14. kurs netninja - CSS Grid Tutorial ( 10 epizodów) *TO DO*  
+14. kurs netninja - CSS Grid Tutorial ( 10 epizodów) **_...IN PROGRESS_**  
 15. kurs netninja - Webpack Tutorials for Beginners ( 6 epizodów) *TO DO*  
 16. kurs netninja - SASS Tutorial ( 12 epizodów) *TO DO*  
 17. kurs netninja - CSS Variables Tutorial ( 4 epizodów) *TO DO*  
