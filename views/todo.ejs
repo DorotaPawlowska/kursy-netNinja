@@ -6,6 +6,7 @@
                 integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
                 crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/assets/styles.css" type="text/css" />
+        <script src="/assets/TDlist.js"></script>
     </head>
     <body>
     <h1>My TODO List</h1>
@@ -16,11 +17,9 @@
             </form>
 
             <ul>
-                <li>item1</li>
-                <li>item2</li>
-                <li>item3</li>
-                <li>item4</li>
-                <li>item5</li>
+                <% for(var i=0; i< todos.length; i++){ %>
+                    <li><%= todos[i].item %></li>
+                <% } %>
             </ul>
         </div>
     </body>
