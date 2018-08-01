@@ -14,7 +14,8 @@ app.get('/', function (req, res) {
 app.get('/contact', function (req, res) {
     // res.send('this is the contact page');
     // res.sendFile(__dirname + '/contact.html');
-    res.render('contact');
+    // console.log(req.query);
+    res.render('contact', {qs: req.query});
 });
 
 app.get('/profile/:name', function (req, res) {
@@ -28,6 +29,3 @@ app.get('/profile/:name', function (req, res) {
 });
 
 app.listen(3000);
-
-
-
