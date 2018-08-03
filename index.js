@@ -1,10 +1,13 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 
 //set up express app
 const app = express();
 
-// initialize routes
-app.use('/api', require('./routes/api'));
+app.use(bodyParser.json());
+
+// initialize routes-trasy
+app.use('/api', require('./routes-trasy/api'));
 
 //listen for requests
 app.listen( process.env.port || 4000, function () {
