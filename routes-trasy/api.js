@@ -4,6 +4,9 @@ const Ninja = require('../models/ninja');
 
 //get list of ninjas from DB
 router.get('/ninjas', function (req, res, next) {
+    /* Ninja.find({}).then(function(ninjas){
+        res.send(ninjas);
+    }); */
     Ninja.aggregate().near({
         near: {
             'type': 'Point',
