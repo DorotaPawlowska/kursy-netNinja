@@ -10,7 +10,7 @@
 6. kurs netninja - Bootstrap 4 Tutorials (12 epizodów) **_DONE_**
 7. kurs netninja - Responsive Web Design Tutorials (12 epizodów) **_DONE_**
 8. kurs netninja - React Tutorials (16 epizodów) ... STOPPED
-9. kurs netninja - REST API Tutorials (Node, Express & Mongo) (17 epizodów) **_...IN PROGRESS_** 
+9. kurs netninja - REST API Tutorials (Node, Express & Mongo) (17 epizodów) **_DONE_**  
 10. kurs netninja - Styling a HTML5 Form (6 epizodów) **_DONE_**
 11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) **_DONE_**
 12. kurs netninja - Object Oriented JavaScript Tutorial ( 11 epizodów) **_DONE_**  
@@ -21,6 +21,7 @@
 17. kurs netninja - CSS Variables Tutorial ( 4 epizodów) **_DONE_**  
 18. kurs netninja - MongoDB Tutorial for Beginners ( 16 epizodów) *TO DO*  
 ...
+**_...IN PROGRESS_**
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
 1. CSS Positioning Tutorials (12 ep) [tutaj](https://github.com/DorotaPawlowska/kurs-netNinja-PosCSS)
