@@ -34,6 +34,9 @@ li {
   #main-nav li {
     float: left;
     width: 16.66667%; }
+    @media screen and (max-width: 600px) {
+      #main-nav li {
+        width: 100%; } }
   #main-nav a {
     color: #f8f9fb;
     text-decoration: none;
@@ -63,6 +66,9 @@ section h1 {
     display: block;
     text-transform: uppercase;
     font-weight: bold; }
+    @media screen and (max-width: 3000px) and (min-width: 1200px) {
+      .lead-banner span {
+        font-size: 68px; } }
   .lead-banner span.title {
     font-weight: normal;
     margin-bottom: 30px; }
@@ -82,6 +88,9 @@ section h1 {
     display: block;
     text-transform: uppercase;
     font-weight: bold; }
+    @media screen and (max-width: 3000px) and (min-width: 1200px) {
+      .lessons-banner span {
+        font-size: 68px; } }
   .lessons-banner span.title {
     font-weight: normal;
     margin-bottom: 30px; }
