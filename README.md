@@ -1,4 +1,4 @@
-# Repo nr1
+# cwiczenie_repo1
 
 ## dodatkowe przerobione kursy:
 
@@ -16,12 +16,12 @@
 12. kurs netninja - Object Oriented JavaScript Tutorial ( 11 epizodów) **_DONE_**  
 13. kurs netninja - Complete React & Redux Tutorial ( 43? epizodów) *TO DO*  
 14. kurs netninja - CSS Grid Tutorial ( 10 epizodów)  **_DONE_**
-15. kurs netninja - Webpack Tutorials for Beginners ( 6 epizodów) *TO DO*  
+15. kurs netninja - Webpack Tutorials for Beginners ( 6 epizodów) **_...IN PROGRESS_**  
 16. kurs netninja - SASS Tutorial ( 12 epizodów) **_DONE_**  
 17. kurs netninja - CSS Variables Tutorial ( 4 epizodów) **_DONE_**  
 18. kurs netninja - MongoDB Tutorial for Beginners ( 16 epizodów) *TO DO*  
+19. kurs netninja - WebSockets Tutorial (Node & Socket.io Chat App)( 5 epizodów) *TO DO*  
 ...
-what next will be **_...IN PROGRESS_** ??
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
 1. CSS Positioning Tutorials (12 ep) [tutaj](https://github.com/DorotaPawlowska/kurs-netNinja-PosCSS)
