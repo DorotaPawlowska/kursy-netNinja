@@ -15,6 +15,12 @@ before(function (done) {
     }).on('error', function (error) {
         console.log('connestion error: ', error);
     });
+});
 
+//drop the collection before each test - delete
+beforeEach(function (done) {
+    mongoose.connection.collections.mariochars.drop(function () {
+        done();
+    })
 });
 
