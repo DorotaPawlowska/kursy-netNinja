@@ -1,4 +1,4 @@
-const mognoose = require('mongoose');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // tworzenie schematu i modelu opartego na tym schemacie
