@@ -15,8 +15,6 @@ const AuthorSchema = new Schema({
     books:[ BookSchema ]
 });
 
-
-
 //model
 const Author = mongoose.model('author', AuthorSchema);
 
