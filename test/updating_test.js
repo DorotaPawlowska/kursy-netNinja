@@ -8,7 +8,8 @@ describe('updating records', function () {
 
     beforeEach(function (done) {
         char = new MarioChar({
-            name: 'Mario'
+            name: 'Mario',
+            weight: 50
         });
         // asynchroniczne - zwraca promisę dlatego .then
         char.save().then(function () {
@@ -27,6 +28,14 @@ describe('updating records', function () {
        });
     });
 
+    it('increments the weight by 1 in the DB', function (done) {
 
+       MarioChar.update({}, {$inc: {weight: 1} }).then(function () {
+           MarioChar.findOne({name: 'Mario'}).then(function (result) {
+               assert(result.weight === 51);
+               done();
+           });
+       });
+    });
     //next test...
 });
