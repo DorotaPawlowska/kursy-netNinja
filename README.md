@@ -20,9 +20,9 @@
 16. kurs netninja - SASS Tutorial ( 12 epizodów) **_DONE_**  
 17. kurs netninja - CSS Variables Tutorial ( 4 epizodów) **_DONE_**  
 18. kurs netninja - MongoDB Tutorial for Beginners ( 16 epizodów) **_DONE_**
-19. kurs netninja - WebSockets Tutorial (Node & Socket.io Chat App)( 5 epizodów) *TO DO*  
+19. kurs netninja - WebSockets Tutorial (Node & Socket.io Chat App)( 5 epizodów) **_...IN PROGRESS_**
 ... 
-**_...IN PROGRESS_**
+
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
 1. CSS Positioning Tutorials (12 ep) [tutaj](https://github.com/DorotaPawlowska/kurs-netNinja-PosCSS)
