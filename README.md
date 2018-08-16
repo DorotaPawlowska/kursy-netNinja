@@ -9,7 +9,7 @@
 5. kurs netninja - Bootstrap 3 Tutorials (28 epizodów) **_DONE_**
 6. kurs netninja - Bootstrap 4 Tutorials (12 epizodów) **_DONE_**
 7. kurs netninja - Responsive Web Design Tutorials (12 epizodów) **_DONE_**
-8. kurs netninja - React Tutorials (16 epizodów) ... STOPPED
+8. kurs netninja - React Tutorials (16 epizodów) ... STOPPED/DROPPED?
 9. kurs netninja - REST API Tutorials (Node, Express & Mongo) (17 epizodów) **_DONE_**  
 10. kurs netninja - Styling a HTML5 Form (6 epizodów) **_DONE_**
 11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) **_DONE_**
