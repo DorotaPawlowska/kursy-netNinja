@@ -19,10 +19,21 @@
                 age: 35
             }
 
+            // działanie bez błędu dla zasięgu dla this dzięki ES6
+
             handleClick = (e) => {
                 // console.log(e.target);
+                this.setState({
+                    name: 'Yoshi',
+                    age: 30
+                });
                 console.log(this.state);
             }
+
+            // handleClick(e){ // jest błąd
+            //     // console.log(e.target);
+            //     console.log(this.state);
+            // }
 
             handleMouseOver = (e) => {
                 console.log(e.target, e.pageX);
