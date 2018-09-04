@@ -2,6 +2,7 @@ import React from 'react';
 
 const Ninjas = ({ninjas}) => {
     // console.log(this.props);
+    
     // const { ninjas } = props; // destrukturyzacja
     // const ninjaList = ninjas.map( ninja => {
     //     if(ninja.age > 20){
