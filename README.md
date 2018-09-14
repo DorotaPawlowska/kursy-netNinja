@@ -14,13 +14,17 @@
 10. kurs netninja - Styling a HTML5 Form (6 epizodów) **_DONE_**
 11. kurs netninja - Node JS Tutorial for Beginners (37 epizodów) **_DONE_**
 12. kurs netninja - Object Oriented JavaScript Tutorial ( 11 epizodów) **_DONE_**
-13. kurs netninja - Complete React & Redux Tutorial ( 43? epizodów) **_...IN PROGRESS_**
+13. kurs netninja - Complete React & Redux Tutorial ( 43? epizodów) **_DONE_**
 14. kurs netninja - CSS Grid Tutorial ( 10 epizodów)  **_DONE_**
 15. kurs netninja - Webpack Tutorials for Beginners ( 6 epizodów) **_DONE_**
 16. kurs netninja - SASS Tutorial ( 12 epizodów) **_DONE_**
 17. kurs netninja - CSS Variables Tutorial ( 4 epizodów) **_DONE_**
 18. kurs netninja - MongoDB Tutorial for Beginners ( 16 epizodów) **_DONE_**
 19. kurs netninja - WebSockets Tutorial (Node & Socket.io Chat App)( 5 epizodów) **_DONE_**
+20. kurs netninja - React, Redux & Firebase App Tutorial (? epizodów ) **_TO_DO_**
+
+
+**_...IN PROGRESS_**
 ...
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
