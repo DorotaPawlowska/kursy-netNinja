@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import 'firebas/firestore';
+import 'firebase/firestore';
 import 'firebase/auth';
 
 // Initialize Firebase
