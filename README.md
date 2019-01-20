@@ -21,6 +21,7 @@
 17. kurs netninja - MongoDB Tutorial for Beginners ( 16 epizodów) **_DONE_**
 18. kurs netninja - WebSockets Tutorial (Node & Socket.io Chat App)( 5 epizodów) **_DONE_**
 19. kurs netninja - React, Redux & Firebase App Tutorial (40 epizodów ) **_DONE_**
+20. kurs netninja - Firebase Auth Tutorial( epizodów) **_...IN PROGRESS_**
 
 
 <!-- **_...IN PROGRESS_** -->
