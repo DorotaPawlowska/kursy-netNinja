@@ -23,6 +23,24 @@
 </head>
 <body>
 
+    <div class="container">
+        <h2>Modals</h2>
+
+        <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+
+        <div class="modal" id="terms">
+            <div class="modal-content">
+                <h4>terms & conditions</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae alias est blanditiis inventore asperiores maxime, maiores nam deserunt soluta consectetur sequi magni, at odit reprehenderit aut a perferendis, possimus voluptatem.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close btn orange">Agree & Close</a>
+            </div>
+        </div>
+
+    </div>
+
+<!--
 <div class="container">
     <h2>Collections</h2>
     <ul class="collection with-header">
@@ -56,6 +74,7 @@
         <li class="collection-item">Bowser</li>
     </ul>
 </div>
+ -->
 
 <!--
 <div class="container">
@@ -132,11 +151,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 <!-- <script>
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-})
-
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
 </script> -->
+
+
+<script>
+    $(document).ready(function(){
+        $('.modal').modal();
+    });
+</script>
 
 </body>
 </html>
