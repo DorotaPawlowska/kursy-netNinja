@@ -24,6 +24,7 @@
 20. kurs netninja - Firebase Auth Tutorial(24 ep) **_TO DO_**
 21. kurs netninja - Materialize Tutorial (25 ep) **_DONE_**
 22. kurs netninja - PHP Tutorial for Beginners ( ep) **_TO DO_**
+23. kurs netninja - Firebase Firestore Tutorial (10 ep) **_...IN PROGRESS_**
 
 
 <!-- **_...IN PROGRESS_** -->
