@@ -22,7 +22,7 @@
 18. kurs netninja - WebSockets Tutorial (Node & Socket.io Chat App)(5 ep) **_DONE_**
 19. kurs netninja - React, Redux & Firebase App Tutorial (40 ep) **_DONE_**
 20. kurs netninja - Firebase Auth Tutorial(24 ep) **_TO DO_**
-21. kurs netninja - Materialize Tutorial (25 ep) **_...IN PROGRESS_**
+21. kurs netninja - Materialize Tutorial (25 ep) **_DONE_**
 22. kurs netninja - PHP Tutorial for Beginners ( ep) **_TO DO_**
 
 
