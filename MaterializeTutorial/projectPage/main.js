@@ -6,4 +6,5 @@ $(document).ready(function(){
     $('.datepicker').datepicker({
         disableWeekends: true
     });
+    $('.tooltipped').tooltip();
 });
