@@ -58,3 +58,27 @@ db.collection('cafes').orderBy('city').onSnapshot(snapshot => {
         }
     });
 });
+
+
+/*
+Firebase Firestore Tutorial #9 - Updating Data
+
+//update()
+db.collection('cafes').doc('bnPiqriPWYqTtSDyXFlH').update({
+    name: 'Wario World'
+})
+
+db.collection('cafes').doc('xXshhYrHGniftAhbaqxa').update({
+    city: 'Wario World'
+})
+
+//set()
+db.collection('cafes').doc('xXshhYrHGniftAhbaqxa').set({
+    city: 'liwerpul'
+})
+
+db.collection('cafes').doc('xXshhYrHGniftAhbaqxa').set({
+    name: 'Imie',
+    city: 'liverpool'
+})
+*/
