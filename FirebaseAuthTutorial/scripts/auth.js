@@ -1,4 +1,11 @@
-//th eauth status changes
+//get data
+db.collection('guides').get()
+    .then(snapshot => {
+        // console.log(snapshot.docs);
+        setupGuides(snapshot.docs);
+})
+
+//the eauth status changes
 
 auth.onAuthStateChanged(user => {
     // console.log(user);
