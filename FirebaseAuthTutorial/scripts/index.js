@@ -4,7 +4,6 @@ const loggedInLinks = document.querySelectorAll('.logged-in');
 const accountDetails = document.querySelector('.account-details');
 const adminItems = document.querySelectorAll('.admin');
 
-
 const setupUI = (user) => {
     if(user){
         if(user.admin){
