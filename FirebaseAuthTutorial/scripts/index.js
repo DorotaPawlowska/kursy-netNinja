@@ -1,35 +1,28 @@
-
 const guideList = document.querySelector('.guides');
 const loggedOutLinks = document.querySelectorAll('.logged-out');
 const loggedInLinks = document.querySelectorAll('.logged-in');
 const accountDetails = document.querySelector('.account-details');
 
-
-
 const setupUI = (user) => {
     if(user){
         // account info
-        const html = `
-            <div>Logged in as ${user.email}</div>
-        `;
-        accountDetails.innerHTML = html;
+        db.collection('users').doc(user.uid).get().then(doc => {
+            const html = `
+                <div>Logged in as ${user.email}</div>
+                <div>${doc.data().bio}</div>
+            `;
+            accountDetails.innerHTML = html;
+        })
+
         //toggle ui elements
-        loggedInLinks.forEach(link => {
-            link.style.display = 'block';
-        })
-        loggedOutLinks.forEach(link => {
-            link.style.display = 'none';
-        })
+        loggedInLinks.forEach(link => link.style.display = 'block');
+        loggedOutLinks.forEach(link => link.style.display = 'none');
     }else{
         // hide account info
         accountDetails.innerHTML = '';
         //toggle ui elements
-        loggedInLinks.forEach(link => {
-            link.style.display = 'none';
-        })
-        loggedOutLinks.forEach(link => {
-            link.style.display = 'block';
-        })
+        loggedInLinks.forEach(link => link.style.display = 'none');
+        loggedOutLinks.forEach(link => link.style.display = 'block');
     }
 };
 
@@ -53,7 +46,6 @@ const setupGuides = (data) => {
         guideList.innerHTML = '<h5 class="center-align">Login to view guides</h5>';
     }
 };
-
 
 //materialize components
 document.addEventListener('DOMContentLoaded', function(){

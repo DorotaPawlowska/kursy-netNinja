@@ -8,16 +8,12 @@ auth.onAuthStateChanged(user => {
         db.collection('guides').onSnapshot(snapshot => {
                 setupGuides(snapshot.docs);
                 setupUI(user);
-            })
-            // .catch(err => {
-            //     console.log(err.message);
-            // });
+            }, err => console.log(err.message));
     }else{
         setupUI();
         // console.log('user logged out.');
         setupGuides([]);
     }
-
 })
 
 //create new guide
@@ -38,10 +34,7 @@ createForm.addEventListener('submit', (e) => {
     })
 })
 
-
-
 // sign up
-
 const signupForm = document.querySelector('#signup-form');
 signupForm.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -55,16 +48,18 @@ signupForm.addEventListener('submit', (e) => {
     //sign up the user
     auth.createUserWithEmailAndPassword(email, password)
         .then(cred => {
+            return db.collection('users').doc(cred.user.uid).set({
+                bio: signupForm['signup-bio'].value
+            })
+        }).then(() => {
             // console.log(cred.user);
             const modal = document.querySelector('#modal-signup');
             M.Modal.getInstance(modal).close();
             signupForm.reset();
         });
-
 });
 
 // logout
-
 const logout = document.querySelector('#logout');
 logout.addEventListener('click', (e) => {
     e.preventDefault();
@@ -75,7 +70,6 @@ logout.addEventListener('click', (e) => {
 });
 
 //login
-
 const loginForm = document.querySelector('#login-form');
 loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
