@@ -23,12 +23,15 @@
 19. kurs netninja - React, Redux & Firebase App Tutorial (40 ep) **_DONE_**
 20. kurs netninja - Firebase Firestore Tutorial (10 ep) **_DONE_**
 21. kurs netninja - Materialize Tutorial (25 ep) **_DONE_**
-22. kurs netninja - Firebase Auth Tutorial(24 ep) **_...IN PROGRESS_**
+22. kurs netninja - Firebase Auth Tutorial(24 ep) **_DONE_**
 23. kurs netninja - Regular Expressions (RegEx) Tutorial (16 ep) **_DONE_**
-24. kurs netninja - PHP Tutorial for Beginners ( ep) **_TO DO_**
+24. kurs netninja - PHP Tutorial for Beginners ( ep) **_...IN PROGRESS_**
+25. kurs netninja - Python 3 Tutorial for Beginners (29 ep) **_TO DO_**
 
 
 <!-- **_...IN PROGRESS_** -->
+<!-- **_DONE_** -->
+<!-- **_TO DO_** -->
 ...
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
