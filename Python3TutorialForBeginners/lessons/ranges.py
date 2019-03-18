@@ -20,5 +20,5 @@ burgers = ['beef', 'chicken', 'veg', 'supreme', 'double']
 #     print(n, burgers[n])
 
 for n in range(len(burgers) - 1, -1, -1): 
-    # albo range(-1,-1,-1)
     print(n, burgers[n])
+
