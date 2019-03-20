@@ -1,5 +1,7 @@
 class Planet:
 
+    shape = 'round'
+
     def __init__(self, name, radius, gravity, system):
         self.name = name
         self.radius = radius
@@ -9,14 +11,16 @@ class Planet:
     def orbit(self):
         return f'{self.name} is orbiting in the {self.system}'
 
-hoth = Planet('Hoth', 200000, 5.5, 'Hoth System')
-print(f'name is: {hoth.name}')
-print(f'radius is: {hoth.radius}')
-print(f'the gravity is: {hoth.gravity}')
-print(hoth.orbit())
+    @classmethod
+    def commons(cls):
+        return f'All planets are {cls.shape} becouse of gravity'
+
+    @staticmethod
+    def spin(speed = '2000 miles per hour'):
+        return f'the planet spins and spins at {speed}'
 
 naboo = Planet('Naboo', 300000, 8, 'Naboo System')
-print(f'name is: {naboo.name}')
-print(f'radius is: {naboo.radius}')
-print(f'the gravity is: {naboo.gravity}')
-print(naboo.orbit())
+# print(Planet.commons())
+print(Planet.spin('a very high speed'))
+print(naboo.spin('a very high speed'))
+# print(naboo.commons())
