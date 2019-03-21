@@ -1,26 +1,9 @@
-class Planet:
-
-    shape = 'round'
-
-    def __init__(self, name, radius, gravity, system):
-        self.name = name
-        self.radius = radius
-        self.gravity = gravity
-        self.system = system
-
-    def orbit(self):
-        return f'{self.name} is orbiting in the {self.system}'
-
-    @classmethod
-    def commons(cls):
-        return f'All planets are {cls.shape} becouse of gravity'
-
-    @staticmethod
-    def spin(speed = '2000 miles per hour'):
-        return f'the planet spins and spins at {speed}'
+from space.planet import Planet
+from space.calc import planet_mass, planet_vol
 
 naboo = Planet('Naboo', 300000, 8, 'Naboo System')
-# print(Planet.commons())
-print(Planet.spin('a very high speed'))
-print(naboo.spin('a very high speed'))
-# print(naboo.commons())
+
+naboo_mass = planet_mass(naboo.gravity, naboo.radius)
+naboo_vol = planet_vol(naboo.radius)
+
+print(f'{naboo.name} has a mass of {naboo_mass} and a volume of {naboo_vol}')
