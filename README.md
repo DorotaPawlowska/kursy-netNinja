@@ -25,9 +25,8 @@
 21. kurs netninja - Materialize Tutorial (25 ep) **_DONE_**
 22. kurs netninja - Firebase Auth Tutorial(24 ep) **_DONE_**
 23. kurs netninja - Regular Expressions (RegEx) Tutorial (16 ep) **_DONE_**
-24. kurs netninja - PHP Tutorial for Beginners ( ep) **_...IN PROGRESS_**
-25. kurs netninja - Python 3 Tutorial for Beginners (29 ep) **_TO DO_**
-
+24. kurs netninja - PHP Tutorial for Beginners ( 42 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
+25. kurs netninja - Python 3 Tutorial for Beginners (29 ep) **_...IN PROGRESS_**
 
 <!-- **_...IN PROGRESS_** -->
 <!-- **_DONE_** -->
