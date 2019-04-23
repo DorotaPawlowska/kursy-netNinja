@@ -15,12 +15,18 @@
         <h1><a href="{% url 'articles:list' %}"><img src="{% static 'logo.png' %}" alt="djangonautic"></a></h1>
         <nav>
             <ul>
+                {% if user.is_authenticated %}
                 <li>
                     <form action="{% url 'accounts:logout' %}" method="POST" class="logout-link">
                         {% csrf_token %}
                         <button type="submit">Logout</button>
                     </form>
                 </li>
+                <li><a href="{% url 'articles:create' %}" class="higlight">New Article</a></li>
+                {% else %}
+                <li><a href="{% url 'accounts:login' %}" class="higlight">Login</a></li>
+                <li><a href="{% url 'accounts:signup' %}" class="higlight">Signup</a></li>
+                {% endif %}
             </ul>
         </nav>
     </header>
