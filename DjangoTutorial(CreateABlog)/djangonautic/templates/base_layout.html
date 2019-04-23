@@ -12,7 +12,7 @@
 <body>
 
     <header class="wrapper">
-        <h1><a href="{% url 'articles:list' %}"><img src="{% static 'logo.png' %}" alt="djangonautic"></a></h1>
+        <h1><a href="{% url 'home' %}"><img src="{% static 'logo.png' %}" alt="djangonautic"></a></h1>
         <nav>
             <ul>
                 {% if user.is_authenticated %}
@@ -22,10 +22,10 @@
                         <button type="submit">Logout</button>
                     </form>
                 </li>
-                <li><a href="{% url 'articles:create' %}" class="higlight">New Article</a></li>
+                <li><a href="{% url 'articles:create' %}" class="highlight">New Article</a></li>
                 {% else %}
-                <li><a href="{% url 'accounts:login' %}" class="higlight">Login</a></li>
-                <li><a href="{% url 'accounts:signup' %}" class="higlight">Signup</a></li>
+                <li><a href="{% url 'accounts:login' %}" class="highlight">Login</a></li>
+                <li><a href="{% url 'accounts:signup' %}" class="highlight">Signup</a></li>
                 {% endif %}
             </ul>
         </nav>
