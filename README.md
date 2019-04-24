@@ -27,7 +27,7 @@
 23. kurs netninja - Regular Expressions (RegEx) Tutorial (16 ep) **_DONE_**
 24. kurs netninja - PHP Tutorial for Beginners (42 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
 25. kurs netninja - Python 3 Tutorial for Beginners (29 ep) **_DONE_**
-26. kurs netninja - Django Tutorial (Create a Blog) (32 ep) **_...IN PROGRESS_**
+26. kurs netninja - Django Tutorial (Create a Blog) (32 ep) **_DONE_**
 27. kurs netninja - Modern JavaScript Tutorial (Udemy Extract) (... ep) **_TO DO_**
 
 <!-- **_...IN PROGRESS_** -->
