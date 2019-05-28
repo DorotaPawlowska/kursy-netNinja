@@ -32,6 +32,6 @@ let mail = 'mario@test.co.uk';
 // let res = mail.slice(0,5);
 // let res = mail.substr(6, 4);
 // let res = mail.replace('m', 'w');
-// let res = mail.replace('o', 'w');
+let res = mail.replace('o', 'w');
 
 console.log(res);
