@@ -12,10 +12,14 @@ if(ninjas.length > 3){
     console.log("that's a lot of ninjas");
 }
 
-const password = 'p@ssword';
+// else if statements
 
-if(password.length >= 8){
+const password = 'p@ssword1234';
+
+if(password.length >= 12){
+    console.log('that password is mighty strong')
+} else if(password.length >= 8){
     console.log('that password is long enough!')
-}else{
-    
+} else{
+    console.log('password is not long enough');
 }
