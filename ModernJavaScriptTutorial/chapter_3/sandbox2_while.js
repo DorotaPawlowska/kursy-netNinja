@@ -13,8 +13,6 @@ while(j < names.length){
     j++;
 }
 
-
-
 // let i = 0;
 // while(i < 5){
 //     console.log('in while loop: ', i);
