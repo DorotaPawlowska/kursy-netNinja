@@ -1,4 +1,4 @@
-// === object literals
+// === object literals + methods + this
 
 let user = {
     name: 'crystal',
@@ -6,14 +6,17 @@ let user = {
     email: 'crystal@thenetninja.co.uk',
     loaction: 'Berlin',
     blogs: ['why mac & chees rules', '10 things to make with marmite'],
-    login: function(){
+    login(){
         console.log('the user logged in');
     },
-    logout: function(){
+    logout(){
         console.log('the user logged out');
     },
-    logBlogs: function(){
-        
+    logBlogs(){
+        // console.log(this);
+        // console.log(this.blogs);
+        console.log('this user has written the following blogs: ');
+        this.blogs.forEach( blog => console.log(blog));
     }
 };
 
@@ -21,17 +24,13 @@ let user = {
 
 user.login();
 user.logout();
+user.logBlogs();
+
+// console.log(this);
 
 
 // const name = 'mario';
 // name.toUpperCase();
-
-
-
-
-
-
-
 
 
 // === object properties
