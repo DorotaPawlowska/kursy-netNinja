@@ -28,8 +28,9 @@
 24. kurs netninja - PHP Tutorial for Beginners (42 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
 25. kurs netninja - Python 3 Tutorial for Beginners (29 ep) **_DONE_**
 26. kurs netninja - Django Tutorial (Create a Blog) (32 ep) **_DONE_**
-27. kurs netninja - Modern JavaScript Tutorial (Udemy Extract) (6 ep) **_TO DO_**
-28. kurs netninja - PWA Tutorial for Beginners(29 ep) **_TO DO_**
+27. kurs netninja - Modern JavaScript Tutorial (Udemy Extract) (6 ep) **_DONE_**
+28. kurs netninja - PWA Tutorial for Beginners(32 ep) **_TO DO_**
+29. kurs netninja - React Context & Hooks Tutorial( ep) **_TO DO_**
 
 <!-- **_...IN PROGRESS_** -->
 <!-- **_DONE_** -->
