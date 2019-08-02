@@ -30,7 +30,7 @@
 26. kurs netninja - Django Tutorial (Create a Blog) (32 ep) **_DONE_**
 27. kurs netninja - Modern JavaScript Tutorial (Udemy Extract) (6 ep) **_DONE_**
 28. kurs netninja - PWA Tutorial for Beginners(32 ep) **_TO DO_**
-29. kurs netninja - React Context & Hooks Tutorial( ep) **_TO DO_**
+29. kurs netninja - React Context & Hooks Tutorial(21 ep) **_...IN PROGRESS_**
 
 <!-- **_...IN PROGRESS_** -->
 <!-- **_DONE_** -->
