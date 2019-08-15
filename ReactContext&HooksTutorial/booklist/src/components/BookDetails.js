@@ -10,5 +10,5 @@ const BookDetails = ({ book }) => {
     </li>
   );
 }
- 
+
 export default BookDetails;
