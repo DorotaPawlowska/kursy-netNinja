@@ -31,6 +31,7 @@
 27. kurs netninja - Modern JavaScript Tutorial (Udemy Extract) (6 ep) **_DONE_**
 28. kurs netninja - PWA Tutorial for Beginners(32 ep) **_...IN PROGRESS_**
 29. kurs netninja - React Context & Hooks Tutorial(21 ep) **_DONE_**
+30. kurs netninja - Flutter Tutorial for Beginners Tutorial( ep) **_TO DO_**
 
 <!-- **_...IN PROGRESS_** -->
 <!-- **_DONE_** -->
