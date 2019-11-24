@@ -31,8 +31,8 @@
 27. kurs netninja - Modern JavaScript Tutorial (Udemy Extract) (6 ep) **_DONE_**
 28. kurs netninja - PWA Tutorial for Beginners(32 ep) **_DONE_**
 29. kurs netninja - React Context & Hooks Tutorial(21 ep) **_DONE_**
-30. kurs netninja - Object Oriented PHP Tutorial(13 ep) **_TO DO_**
-31. kurs netninja - Flutter Tutorial for Beginners Tutorial(35 ep) **_TO DO_**
+30. kurs netninja - Object Oriented PHP Tutorial(14 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
+31. kurs netninja - Flutter Tutorial for Beginners Tutorial(35 ep) **_...IN PROGRESS_**
 32. kurs netninja - Flutter & Firebase App Build( ep) **_TO DO_**
 
 <!-- **_...IN PROGRESS_** -->
