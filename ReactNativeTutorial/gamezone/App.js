@@ -8,8 +8,6 @@ const getFonts = () => Font.loadAsync({
   'nunito-bold': require('./assets/fonts/Nunito-Bold.ttf'),
 });
 
-
-
 export default function App() {
 
   const [ fontsLoaded, setFontsLoaded ] = useState(false);
