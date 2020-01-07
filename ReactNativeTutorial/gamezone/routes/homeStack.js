@@ -19,7 +19,6 @@ const screens = {
       headerStyle: { backgroundColor: '#eee'} // to też nie działa
     }
   },
-
 }
 
 const HomeStack = createStackNavigator(screens, {
@@ -29,4 +28,4 @@ const HomeStack = createStackNavigator(screens, {
   }
 });
 
-export default createAppContainer(HomeStack);
+export default HomeStack;
