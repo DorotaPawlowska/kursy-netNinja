@@ -2,21 +2,23 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 import Home from '../screens/home';
 import ReviewDetails from '../screens/reviewDetails';
+import Header from '../shared/header';
+import React from 'react';
 
 
 const screens = {
-  GameZone: { // inaczej niż w tutorialu
+  Home: { // inaczej niż w tutorialu
     screen: Home,
-    navigatonOptions: {
-      // title: 'GameZone', // to też nie działa
-      headerStyle: { backgroundColor: '#333'} // to też nie działa
+    navigatonOptions: ({ navigation }) => {
+      return {
+        headerTitle: () => <Header navigation={navigation} title='GameZone'/>,
+      }
     }
   },
   ReviewDetails: {
     screen: ReviewDetails,
     navigatonOptions: {
-      title: 'Review Details', // to też nie działa
-      headerStyle: { backgroundColor: '#eee'} // to też nie działa
+      title: 'ReviewDetails', // to też nie działa
     }
   },
 }
