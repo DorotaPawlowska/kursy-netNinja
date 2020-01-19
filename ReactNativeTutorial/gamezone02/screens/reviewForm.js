@@ -42,7 +42,8 @@ export default function ReviewForm({ addReview }){
             <Text style={globalStyles.errorText}>{ propsFormik.touched.title && propsFormik.errors.title }</Text>
 
             <TextInput 
-              multiline
+              multiline 
+              minHeight={80}
               style={globalStyles.input}
               placeholder='Review body'
               onChangeText={propsFormik.handleChange('body')}
