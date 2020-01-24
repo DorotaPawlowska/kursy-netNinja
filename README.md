@@ -34,7 +34,8 @@
 30. kurs netninja - Object Oriented PHP Tutorial(14 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
 31. kurs netninja - Flutter Tutorial for Beginners Tutorial(35 ep) **_DONE_**
 32. kurs netninja - Flutter & Firebase App Build(28 ep) **_... SUSPENDED!!!(from 2020-01-01)_**
-33. kurs netninja - React Native Tutorial for Beginners( ep) **_... IN PROGRESS_**
+33. kurs netninja - React Native Tutorial for Beginners(35 ep) **_DONE_**
+34. kurs netninja - Mobile-First Responsive Build (with CSS Grid)( ep) **_... IN PROGRESS_**
 
 <!-- **_... IN PROGRESS_** -->
 <!-- **_... SUSPENDED!!!_** -->
