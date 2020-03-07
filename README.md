@@ -35,7 +35,8 @@
 31. kurs netninja - Flutter Tutorial for Beginners Tutorial(35 ep) **_DONE_**
 32. kurs netninja - Flutter & Firebase App Build(28 ep) **_... SUSPENDED!!!(from 2020-01-01)_**
 33. kurs netninja - React Native Tutorial for Beginners(35 ep) **_DONE_**
-34. kurs netninja - Mobile-First Responsive Build (with CSS Grid)( ep) **_... IN PROGRESS_**
+34. kurs netninja - Mobile-First Responsive Build (with CSS Grid)(14 ep) **_DONE_**
+35. kurs netninja - Laravel 6 Tutorial for Beginners(30 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
 
 <!-- **_... IN PROGRESS_** -->
 <!-- **_... SUSPENDED!!!_** -->
