@@ -37,6 +37,7 @@
 33. kurs netninja - React Native Tutorial for Beginners(35 ep) **_DONE_**
 34. kurs netninja - Mobile-First Responsive Build (with CSS Grid)(14 ep) **_DONE_**
 35. kurs netninja - Laravel 6 Tutorial for Beginners(30 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
+36. kurs netninja - TypeScript Tutorial( ep) **... IN PROGRESS**
 
 <!-- **_... IN PROGRESS_** -->
 <!-- **_... SUSPENDED!!!_** -->
