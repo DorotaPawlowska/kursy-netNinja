@@ -1,23 +1,4 @@
-// const anchor = document.querySelector('a')!;
-// if(anchor){
-//   console.log(anchor.href);
-// }
-// console.log(anchor.href);
-
-
-// classes
-class Invoice {
-  constructor(
-    readonly client: string,
-    private details: string,
-    public amount: number
-  ){}
-
-  format(){
-    // this.client = 'else'; // CANT
-    return `${this.client} owes $${this.amount} for ${this.details}`;
-  }
-}
+import { Invoice } from './classes/Invoice.js';
 
 const invOne = new Invoice('mario', 'work on the mario website', 250);
 const invTwo = new Invoice('luigi', 'work on the luigi website', 300);
