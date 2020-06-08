@@ -38,8 +38,8 @@
 34. kurs netninja - Mobile-First Responsive Build (with CSS Grid)(14 ep) **_DONE_**
 35. kurs netninja - Laravel 6 Tutorial for Beginners(30 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
 36. kurs netninja - TypeScript Tutorial(21 ep) **_DONE_**
-37. kurs netninja - Webpack & TypeScript Setup(7 ep) **_... IN PROGRESS_**
-38. kurs netninja - Framer Motion(for React) Tutorial( ep) **_TO DO_**
+37. kurs netninja - Webpack & TypeScript Setup(7 ep) **_DONE_**
+38. kurs netninja - Framer Motion(for React) Tutorial( ep) **_... IN PROGRESS_**
 
 <!-- **_... IN PROGRESS_** -->
 <!-- **_... SUSPENDED!!!_** -->
