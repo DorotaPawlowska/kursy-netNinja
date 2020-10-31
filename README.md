@@ -43,6 +43,7 @@
 39. kurs netninja - Deno Jump-start Tutorial(7 ep) **_...TO DO?_**
 40. kurs netninja - Node.js Crash Course(12 ep) **_TO DO_**
 41. kurs netninja - Tailwind CSS Tutorial( ep) **_TO DO_**
+42. kurs netninja - other Tutorials( ep) **_... IN PROGRESS_**
 
 <!-- **_... IN PROGRESS_** -->
 <!-- **_... SUSPENDED!!!_** -->
