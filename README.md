@@ -40,10 +40,17 @@
 36. kurs netninja - TypeScript Tutorial(21 ep) **_DONE_**
 37. kurs netninja - Webpack & TypeScript Setup(7 ep) **_DONE_**
 38. kurs netninja - Framer Motion(for React) Tutorial(18 ep) **_DONE_**
-39. kurs netninja - Deno Jump-start Tutorial(7 ep) **_...TO DO?_**
-40. kurs netninja - Node.js Crash Course(12 ep) **_TO DO_**
-41. kurs netninja - Tailwind CSS Tutorial( ep) **_TO DO_**
-42. kurs netninja - other Tutorials( ep) **_... IN PROGRESS_**
+39. kurs netninja - Node.js Crash Course(12 ep) **_TO DO_**
+40. kurs netninja - Tailwind CSS Tutorial(19 ep) **_TO DO_**
+41. kurs netninja - other Tutorials (2 **_DONE_**)**_... ALWAYS IN PROGRESS_**
+42. kurs netninja - Asynchronous JavaScript(2020 version)(11 ep) **_TO DO_**
+43. kurs netninja - Firebase Firestore Pagination(2 ep) **_TO DO_**
+44. kurs netninja - JSON Server Tutorial(2 ep) **_TO DO_**
+45. kurs netninja - Full Modern React Tutorial(... ep) **_TO DO_**
+46. kurs netninja - Node.js Auth Tutorial (JWT)(18 ep) **_TO DO_**
+47. kurs netninja - React Query Tutorial(5 ep) **_TO DO_**
+48. kurs netninja - React Skeleton Screens Tutorial(7 ep) **_TO DO_**
+
 
 <!-- **_... IN PROGRESS_** -->
 <!-- **_... SUSPENDED!!!_** -->
