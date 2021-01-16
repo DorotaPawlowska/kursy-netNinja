@@ -1,13 +1,16 @@
 const container = document.querySelector('.container');
+const loading = document.querySelector('.loading');
 
 //store last doc
 let latestDoc = null;
 
-const getNextReviews = async () => {
+const getNextReviews = async (doc) => {
+  loading.classList.add('active');
+
   const ref = db.collection('reviews')
     .orderBy('createdAt')
-    .startAfter(latestDoc || 0)
-    .limit(2);
+    .startAfter(doc || 0)
+    .limit(4);
 
   const data = await ref.get();
 
@@ -24,12 +27,15 @@ const getNextReviews = async () => {
     `
   });
   container.innerHTML += template;
+  loading.classList.remove('active');
+
   // updete latest doc
   latestDoc = data.docs[data.docs.length - 1];
 
   // unattach event listners if no more docs
   if(data.empty){
     loadMore.removeEventListener('click', handleClick);
+    container.removeEventListener('scroll', handleScroll);
   }
 };
 
@@ -38,9 +44,18 @@ window.addEventListener('DOMContentLoaded', () => getNextReviews());
 
 //load more docs (button)
 const loadMore = document.querySelector('.load-more button');
-
 const handleClick = () => {
-  getNextReviews();
+  getNextReviews(latestDoc);
 }
-
 loadMore.addEventListener('click', handleClick);
+
+//load more docs (scroll)
+const handleScroll = () => {
+  let triggerHeight = container.scrollTop + container.offsetHeight;
+  if(triggerHeight >= container.scrollHeight){
+    getNextReviews(latestDoc);
+      // console.log('scroll');
+
+  }
+}
+container.addEventListener('scroll', handleScroll);
