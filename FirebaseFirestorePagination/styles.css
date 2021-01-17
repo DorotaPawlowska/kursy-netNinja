@@ -14,14 +14,14 @@ body{
   margin: 10px auto;
   padding: 20px;
   /* scroll stuff */
-  max-height: 40%;
+  max-height: 80%;
   box-sizing: border-box;
   overflow: auto;
 }
 
-.container::-webkit-scrollbar{
+/* .container::-webkit-scrollbar{
   display: none;
-}
+} */
 
 .card{
   background: white;

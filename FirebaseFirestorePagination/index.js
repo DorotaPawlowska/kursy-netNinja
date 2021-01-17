@@ -10,7 +10,7 @@ const getNextReviews = async (doc) => {
   const ref = db.collection('reviews')
     .orderBy('createdAt')
     .startAfter(doc || 0)
-    .limit(4);
+    .limit(5);
 
   const data = await ref.get();
 

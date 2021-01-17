@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "welcome to the new blog",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro architecto quibusdam laudantium consequuntur accusamus et obcaecati assumenda blanditiis voluptatum veniam! Accusamus adipisci quia aut exercitationem ea porro qui eos explicabo, reprehenderit ipsam, nobis aperiam et libero aspernatur, saepe amet nesciunt fugiat culpa voluptate optio maiores asperiores architecto? Fuga, facilis error.",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "welcome to the 2 blog",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro architecto quibusdam laudantium consequuntur accusamus et obcaecati assumenda blanditiis voluptatum veniam! Accusamus adipisci quia aut exercitationem ea porro qui eos explicabo, reprehenderit ipsam, nobis aperiam et libero aspernatur, saepe amet nesciunt fugiat culpa voluptate optio maiores asperiores architecto? Fuga, facilis error.",
+      "likes": 15
+    },
+    {
+      "id": 3,
+      "title": "welcome to the 3 blog",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro architecto quibusdam laudantium consequuntur accusamus et obcaecati assumenda blanditiis voluptatum veniam! Accusamus adipisci quia aut exercitationem ea porro qui eos explicabo, reprehenderit ipsam, nobis aperiam et libero aspernatur, saepe amet nesciunt fugiat culpa voluptate optio maiores asperiores architecto? Fuga, facilis error.",
+      "likes": 20
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "do you like this or that",
+      "answerA": "this",
+      "answerB": "that"
+    }
+  ]
+}
