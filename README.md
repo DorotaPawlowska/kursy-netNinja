@@ -43,8 +43,8 @@
 39. kurs netninja - Asynchronous JavaScript(2020 version)(11 ep) **_DONE_**
 40. kurs netninja - Firebase Firestore Pagination(2 ep) **_DONE_** !!!
 41. kurs netninja - other Tutorials (2 **_DONE_**)**_... ALWAYS IN PROGRESS_** !!!
-42. kurs netninja - JSON Server Tutorial(2 ep) **_... IN PROGRESS_**
-43. kurs netninja - Full Modern React Tutorial(... ep) **_TO DO_**
+42. kurs netninja - JSON Server Tutorial(2 ep) **_DONE_**
+43. kurs netninja - Full Modern React Tutorial(... ep) **_... IN PROGRESS_**
 44. kurs netninja - React Query Tutorial(5 ep) **_TO DO_**
 45. kurs netninja - React Skeleton Screens Tutorial(7 ep) **_TO DO_**
 46. kurs netninja - Node.js Crash Course(12 ep) **_TO DO_**
