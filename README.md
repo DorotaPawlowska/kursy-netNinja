@@ -33,7 +33,7 @@
 29. kurs netninja - React Context & Hooks Tutorial(21 ep) **_DONE_**
 30. kurs netninja - Object Oriented PHP Tutorial(14 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
 31. kurs netninja - Flutter Tutorial for Beginners Tutorial(35 ep) **_DONE_**
-32. kurs netninja - Flutter & Firebase App Build(28 ep) **_... SUSPENDED(from 2020-01-01)_**
+32. kurs netninja - Flutter & Firebase App Build(28 ep) **_... SUSPENDED(from 2020-01-01)_** !!!
 33. kurs netninja - React Native Tutorial for Beginners(35 ep) **_DONE_**
 34. kurs netninja - Mobile-First Responsive Build (with CSS Grid)(14 ep) **_DONE_**
 35. kurs netninja - Laravel 6 Tutorial for Beginners(30 ep) **_DONE_** [tutaj](https://github.com/DorotaPawlowska/PHP-tuts)
@@ -55,6 +55,7 @@
 <!-- **_... SUSPENDED!!!_** -->
 <!-- **_DONE_** -->
 <!-- **_TO DO_** -->
+<!-- !!! czyli coś nie do końca jest okej z wynikiem u mnie, nie działa prawidłowo-->
 ...
 
 ## przerobione kursy netNinja w innych repozytoriach (almost all DONE):
