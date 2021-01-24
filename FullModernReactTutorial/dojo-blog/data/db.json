@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "my first blog",
+      "body": "lorem lipsum 12",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "my second blog",
+      "body": "lorem lipsum hipsum 11231232",
+      "author": "luigi",
+      "id": 2
+    }
+  ]
+}
