@@ -2,13 +2,13 @@
   "blogs": [
     {
       "title": "my first blog",
-      "body": "lorem lipsum 12",
+      "body": "lorem lipsum 12 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, minus suscipit nam dignissimos tenetur expedita soluta numquam voluptatem illum ipsa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, minus suscipit nam dignissimos tenetur expedita soluta numquam voluptatem illum ipsa.",
       "author": "mario",
       "id": 1
     },
     {
       "title": "my second blog",
-      "body": "lorem lipsum hipsum 11231232",
+      "body": "lorem lipsum hipsum 11231232 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, minus suscipit nam dignissimos tenetur expedita soluta numquam voluptatem illum ipsa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, minus suscipit nam dignissimos tenetur expedita soluta numquam voluptatem illum ipsa.",
       "author": "luigi",
       "id": 2
     }
