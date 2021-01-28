@@ -23,6 +23,18 @@
       "body": "'http://localhost:8000/blogs' lkorem kolorem",
       "author": "yoshi",
       "id": 4
+    },
+    {
+      "title": "asdasd",
+      "body": "asdasdasdasd",
+      "author": "mario",
+      "id": 5
+    },
+    {
+      "title": "zupełnie nowy blog",
+      "body": "dużo lorem ipsum .................................asidjjjjjjjjjjjjjjjjjjj jddddddddd jdd owq wiejf wiejfwewe fw we ",
+      "author": "yoshi",
+      "id": 6
     }
   ]
 }
