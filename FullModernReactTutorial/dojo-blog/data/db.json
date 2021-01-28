@@ -11,6 +11,18 @@
       "body": "lorem lipsum hipsum 11231232 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, minus suscipit nam dignissimos tenetur expedita soluta numquam voluptatem illum ipsa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, minus suscipit nam dignissimos tenetur expedita soluta numquam voluptatem illum ipsa.",
       "author": "luigi",
       "id": 2
+    },
+    {
+      "title": "new blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed sem diam. Etiam condimentum accumsan nisi. Mauris iaculis blandit sapien, et porttitor lorem ultricies sed. Morbi eleifend fermentum semper. Proin eu mattis nulla. Etiam efficitur urna in efficitur laoreet. Curabitur venenatis suscipit risus. Duis a velit ut arcu pharetra auctor sagittis quis dolor. In in faucibus lacus. Mauris viverra orci ac diam porta porta. Pellentesque ligula mauris, aliquam et posuere eget, porta id nisl. Morbi dictum nisl eget tempus sollicitudin. Phasellus condimentum rutrum dapibus. In nec metus sed dolor euismod iaculis sit amet et tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce euismod orci quis tempor varius.\n\nUt quis ex id mi ultricies tristique. Integer rhoncus ligula a turpis mollis, sit amet tristique dolor ",
+      "author": "mario",
+      "id": 3
+    },
+    {
+      "title": "tekst",
+      "body": "'http://localhost:8000/blogs' lkorem kolorem",
+      "author": "yoshi",
+      "id": 4
     }
   ]
 }
