@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import Navbar from "./components/Navbar";
 import Planets from './components/Planets';
 import People from './components/People';
+import { ReactQueryDevtools } from 'react-query/devtools';
 
 const queryClient = new QueryClient();
 
@@ -16,6 +17,7 @@ function App() {
       <div className="content">
         <QueryClientProvider client={queryClient}>
           { page === 'planets' ? <Planets /> : <People /> }
+          <ReactQueryDevtools initialIsOpen={false} />
         </QueryClientProvider>
       </div>
     </div>
