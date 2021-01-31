@@ -45,8 +45,8 @@
 41. kurs netninja - other Tutorials (2 **_DONE_**)**_... ALWAYS IN PROGRESS_** !!!
 42. kurs netninja - JSON Server Tutorial(2 ep) **_DONE_**
 43. kurs netninja - Full Modern React Tutorial(32 ep) **_DONE_**
-44. kurs netninja - React Query Tutorial(5 ep) **_... IN PROGRESS_**
-45. kurs netninja - React Skeleton Screens Tutorial(7 ep) **_TO DO_**
+44. kurs netninja - React Query Tutorial(5 ep) **_DONE_**
+45. kurs netninja - React Skeleton Screens Tutorial(7 ep) **_... IN PROGRESS_**
 46. kurs netninja - Node.js Crash Course(12 ep) **_TO DO_**
 47. kurs netninja - Node.js Auth Tutorial (JWT)(18 ep) **_TO DO_**
 48. kurs netninja - Tailwind CSS Tutorial(19 ep) **_TO DO_**
