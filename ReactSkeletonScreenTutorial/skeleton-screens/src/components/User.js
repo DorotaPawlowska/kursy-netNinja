@@ -19,8 +19,8 @@ const User = () => {
       {profile && (
         <div className="profile">
           <h3>{ profile.username }</h3>
-          <p>{profile.email}</p>
-          <a href={profile.website}>{ profile.website }</a>
+          <p>{ profile.email }</p>
+          <a href={ profile.website }>{ profile.website }</a>
         </div>
       )}
       {!profile && <SkeletonProfile theme="dark"/> }

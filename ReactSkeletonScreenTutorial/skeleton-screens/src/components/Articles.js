@@ -17,7 +17,7 @@ const Articles = () => {
       <h2>Articles</h2>
 
       {articles && articles.map(article => (
-        <div className="article" key={article.id}>
+        <div className="article" key={ article.id }>
           <h3>{ article.title }</h3>
           <p>{ article.body }</p>
         </div>
